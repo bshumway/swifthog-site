@@ -1,17 +1,18 @@
-# SwiftHog App Store Website
+# LokStok App Store Website
 
 Static website scaffold for GitHub Pages with the pages typically required by Apple App Store and Google Play submissions.
 
 ## Included pages
 
 - `/` Home / product overview
+- `/help-center/` Help center and feature guide
 - `/privacy/` Privacy Policy
 - `/terms/` Terms of Use
 - `/support/` Support and contact
 
 ## 1) Create a new public GitHub repository
 
-Recommended repo name: `swifthog-site`
+Recommended repo name: `lokstok-site` or `swifthog-site`
 
 ## 2) Copy this folder into that new repo
 
@@ -66,4 +67,5 @@ Before going live, update:
 - Marketing URL: `https://swifthog.com`
 - Privacy Policy URL: `https://swifthog.com/privacy/`
 - Support URL: `https://swifthog.com/support/`
+- Help Center URL: `https://swifthog.com/help-center/`
 

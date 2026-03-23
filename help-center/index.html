@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Help Center | LokStok</title>
+    <meta
+      name="description"
+      content="LokStok help center with setup guidance, feature overview, and support information."
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container topbar">
+        <a class="brand" href="/">
+          <img class="brand-badge" src="/assets/lokstok-logo.svg" alt="LokStok logo" />
+          <span>LokStok</span>
+        </a>
+        <nav aria-label="Primary">
+          <a href="/help-center/">Help Center</a>
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+          <a href="/support/">Support</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>LokStok Help Center</h1>
+        <p class="subtext">
+          Everything you need to get started, protect your data, and use LokStok features
+          effectively.
+        </p>
+        <div class="button-row">
+          <a class="button" href="mailto:support@swifthog.com">Email Support</a>
+          <a class="button secondary" href="/support/">Support Page</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Quick start</h2>
+        <ol>
+          <li>Complete onboarding and set your PIN.</li>
+          <li>Enable biometrics for faster secure unlock.</li>
+          <li>Add your first firearm and key details.</li>
+          <li>Log ammo and maintenance as you use your equipment.</li>
+          <li>Create an encrypted backup and store it in a safe location.</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>Core features</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Inventory management</h3>
+            <p>Track firearm records and related details in one organized vault.</p>
+          </article>
+          <article class="card">
+            <h3>Maintenance logs</h3>
+            <p>Record cleanings and monitor status over time.</p>
+          </article>
+          <article class="card">
+            <h3>Ammo tracking</h3>
+            <p>Manage ammo inventory and log usage associated with sessions.</p>
+          </article>
+          <article class="card">
+            <h3>NFA and documents</h3>
+            <p>Store and organize documents and records tied to your items.</p>
+          </article>
+          <article class="card">
+            <h3>Reports and exports</h3>
+            <p>Generate useful outputs for personal records and planning.</p>
+          </article>
+          <article class="card">
+            <h3>Global search</h3>
+            <p>Find records quickly across your vault content.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Security and privacy</h2>
+        <ul>
+          <li>Local-only data model with no app-operated cloud sync.</li>
+          <li>Encrypted database at rest with key protection on device.</li>
+          <li>Biometric unlock with PIN fallback.</li>
+          <li>No analytics tracking and no advertising SDKs.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Backup and recovery</h2>
+        <ul>
+          <li>Create encrypted backups regularly from Settings.</li>
+          <li>Store backup files in a trusted location you control.</li>
+          <li>Test your restore flow occasionally to confirm recoverability.</li>
+          <li>Keep backup password details secure and memorable.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Troubleshooting checklist</h2>
+        <ul>
+          <li>Update to the latest app version.</li>
+          <li>Restart your device if biometric prompts fail to appear.</li>
+          <li>Verify device storage space if imports/exports fail.</li>
+          <li>Contact support with app version and device OS details.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div>© <span id="year"></span> SwiftHog. All rights reserved.</div>
+        <div class="small">
+          Contact: <a href="mailto:support@swifthog.com">support@swifthog.com</a> ·
+          <a href="/privacy/">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
